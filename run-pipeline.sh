@@ -24,6 +24,13 @@ curl -v -L --output $ARTIFACT_FILE\
   -H "Authorization: Bearer $TOKEN" \
   https://api.github.com/repos/$OWNER/$REPO/actions/artifacts/$ARTIFACT_ID/zip
 
+  curl  \                                   
+    -H "Accept: application/json;charset=UTF-8" \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Basic $TOKEN" \
+    -d  "{\"statements\":[{\"statement\":\" MATCH (p:Person) RETURN count(p) \"}]}" \
+    http://localhost:7474/db/neo4j/tx/commit
+
 
 unzip -o $ARTIFACT_FILE
 
