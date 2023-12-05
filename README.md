@@ -1,3 +1,5 @@
+first try
+
 # devops-playground
 Thank you for taking the time to read this assessment. This repo simulates a provisioning and configuration management code life cycle. It gives a starting point for candidates to demonstrate skills in certain areas like:
 - Configuration as code
@@ -5,7 +7,7 @@ Thank you for taking the time to read this assessment. This repo simulates a pro
 - Infrastructure design
 - Peer reviews
 - Testing
-- Cloud providers and cloud-native solutions
+- Cloud providers and cloud-native solution
 
 ## Setup
 
