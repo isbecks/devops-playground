@@ -1,4 +1,4 @@
-first try
+first try for tech assessment
 
 # devops-playground
 Thank you for taking the time to read this assessment. This repo simulates a provisioning and configuration management code life cycle. It gives a starting point for candidates to demonstrate skills in certain areas like:
